@@ -1,27 +1,30 @@
-# VBA-Little-Helper
+# VBA-Little-Helper 
+![example workflow](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 
-## Motivation
-Wheter is good or bad, most time comsumption comes from repetitive tasks rather than unexcpectance situations.
-I wanted to find a way where I can reduce the weight of my coworker and me from doing +20 Proformas each day and focus our energy on bigger tasks. Even if it is only some seconds... it helps to reduce the burden of wasting time.
+![PRO-FORMA](https://user-images.githubusercontent.com/70821494/191532054-83e9fc14-f00b-47fa-9c48-a8d32c652606.png)
+
+## Motivation 
+I do +20 Pro-Forma everyday. At the beginning, it took 2 to 3 minutes to do every pro-forma and involved to much steps causing me mental tireness affecting my performance in other tasks. I wanted a faster, simple mini program to create files and share it with my coworkers in a familiar space. 
 
 ## Problems along the way and How I faced it?
-I had experience coding in python or R only for analytics purpose but never on excel or any other program to build a "software" no matter if it was bad or not.
-  - I learned that it was not neccesary  a strong programming language to help my coworkers. So I set minutes in my free time and after work to sketch, develop, and test ways to help. I talked directly with my coworkers to uderstand his problems and what he was looking for. Furthermore, each 2 days I check with him to obtaing his approve or show him workaround of the solution.
-  - 
-## Problems and How the "software" has helped.
-It's purpose is to:
-- Reduce time when creating Pro-formas.
-  - 2:13 minutes when to 1.27s in the best case scenario for the old way of doing Pro-formas
-- Eliminate the repetitive task of labeling new Pro-formas.
-  - Before you have to label the pdf with the name of the hospital.
-- Replace a bulky excel file
-  - Now Only pdf files are created instead of expanding the excel sheet. 
-- Reduce the error of creating Proformas such as incorrect label or wrong format.
-  - Before you ahve to adjut to copy a previously made format with its images and it distortioned the proforma.
+Problem: No programming experience(related to build something instead of analysis)
+- Solution: Asking the right questions on Stackoverflow and Googgle lead me to build piece by piece the whole program.
+
+## Topics the mini Program has helped.
+- Time reduction
+  - Usual 2:30 minutes creating Pro-forma is reduced 1.27s
+- Correct and Consistent label
+  - The mini program creates a standard pdf filename detailing the file code, receiver, and pro-forma #.
+- Lighter Excel File
+  - There is only one page with a generic static design. All records are saved as pdf and MYSQL records. 
+
 
 
 ##Set-up 
 
-## Future plans
-The "software" now runs in excel as I previously stated but, currently I am working on a JAVA version to display
-a cleaner, and faster program.
+## Future plans 
+ - Until we get a New software from a known software company in the Pharmaceutical industry I plan to move the program from excel to Java.
+  ### Reasons
+    - excel is too old to be compatible with other programs and that reduce the options when creating new features.
+    - VBA macros buttons are slow, and more if within the sheet and not in a user form.
+    - Better design customization.
